@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON  */
+.container{
+    max-width: 1200px;
+}
+
+.container-sm{
+    max-width: 991px;
+}
+
+.margin-container{
+    margin: 0 auto;
+}
+
+.margin-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.padding-10{
+    padding: 10px;
+}
+
+.padding-20{
+    padding: 20px;
+}
+
+.padding-75{
+    padding: 75px;
+}
+
+
+.padding-10-0{
+    padding: 10px 0;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.col-15{
+    width: 15%;
+}
+
+.col-16{
+    width: 16%;
+}
+
+.col-30{
+    width: 30%;
+}
+
+.col-32{
+    width: 32%;
+}
+
+.col-70{
+    width: 70%;
+}
+
+.col-80{
+    width: 80%;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.height-50{
+    height: 50px;
+}
+
+.height-250{
+    height: 250px;
+}
+
+.height-300{
+    height: 300px;
+}
+
+.height-500{
+    height: 500px;
+}
+
+.display-col-h{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.border-col{
+    border: 2px dashed black;
+}
+
+.border-radius{
+    border-radius: 40%;
+}
+
+
+/* COLORS  */
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.bg-lightblue{
+    background-color: lightblue;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+
+
+.bg-gray{
+    background-color: gray;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.white{
+    color: white;
+}
+
+.black{
+    color: black;
+}
+
+
+
+/* HEADER  */
+header{
+    height: 75px;
+    background-color: rgb(98, 116, 231);
+    padding: 10px 0;
+}
+
+.logo{
+     width: 100%; 
+     height: 100%;
+}
+
+.bg-h{
+    background-image: url(../img/jumbo.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/* MAIN  */
+
+
+
+/* FOOTER  */
+footer{
+    background-color: rgb(58, 54, 54);
+}
+
+
+br{
+    background-color: grey;
+    margin: 10px;
+}
+
+.side{
+    height: 20px;
+    width: 50px;
+    align-self: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    text-align: center;
+}
