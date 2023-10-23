@@ -9,9 +9,13 @@
     max-width: 1200px;
 }
 
-.container-sm{
-    max-width: 991px;
-}
+ .container-sm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} 
+
 
 .margin-container{
     margin: 0 auto;
@@ -40,7 +44,7 @@
 }
 
 .row{
-    width: 100%;
+    max-width: 991px;
     display: flex;
     justify-content: center;
 }
@@ -128,7 +132,7 @@
 
 
 .bg-gray{
-    background-color: gray;
+    background-color: rgb(234, 230, 230);
 }
 
 .bg-green{
@@ -165,17 +169,48 @@ header{
     background-image: url(../img/jumbo.png);
     background-size:cover;
     background-repeat: no-repeat;
+    
 }
 
 
 
+
+
 /* MAIN  */
+.img{
+    height: 100%;
+    width: 100%;
+    size: 100%;
+}
+
+.width-fit{
+    width: fit-content;
+}
 
 
+.bg-stars{
+    background-image: url(../img/stars.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+h2{
+    padding: 20px;
+    font-size: 40px;
+}
+
+.content-30{
+    text-align: center;
+    
+    
+}
 
 /* FOOTER  */
 footer{
-    background-color: rgb(58, 54, 54);
+    background-color: rgb(120, 117, 117);
 }
 
 
@@ -186,15 +221,39 @@ br{
 
 .side{
     height: 20px;
-    width: 50px;
+    width: 100px;
     align-self: center;
 }
 
 .flex{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .content{
     text-align: center;
+}
+
+.content-f{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0; 
+}
+
+
+
+ul{
+    list-style-type: none;
+    line-height: 2.5;
+   
+}
+
+h3{
+    color: blue;
+    padding: 20px;
+}
+
+button{
+    border: none;
 }
